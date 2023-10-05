@@ -1,0 +1,19 @@
+/* 전체 페이지 요소에 대해서 외곽선 제거 여백 0 */
+* {
+    outline: none; 
+    margin: 0;
+}
+
+/* overflow hidden해서 만약 스크롤바가 생길 경우 스크롤바가 보이지 않도록 함 */
+body {
+    overflow: hidden;
+}
+
+/* 해당 id를 가진 container에 대해 페이지에 꽉 차도록 설정 */
+#webgl-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
